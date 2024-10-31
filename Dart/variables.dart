@@ -46,10 +46,10 @@ void main(){
   // // class person => name
 
   // List operations []
-  var lst = [1,2,3,4,5,6,7,8,9];
+  // var lst = [1,2,3,4,5,6,7,8,9];
   //        [0,1,2,3,4,5,6,7,8];
   //  print(lst[2]);
-  print("value of lst[0] is ${lst[0]}");
+  // print("value of lst[0] is ${lst[0]}");
 
   // lst.add(6);
   // lst.addAll([2,5,6]);
@@ -66,9 +66,20 @@ void main(){
   // var rem = lst.removeLast();
   // lst.removeRange(3,8);//
   // print("the latest updated list is ${lst} removed");
-  lst.forEach((element) {
-    print(element);
-  },);
+  // lst.forEach((element) {
+  //   print(element);
+  // });
+
+  // Map 
+  var mp = {1:"sandesh",2: "Hemanth", 3:"lokanath"};
+  var mp2 = Map();
+  mp2[1] = "hello";
+  print(mp);
+  print(mp2);
+  print("${mp[1]}");
+  print("test ${mp2[1]}");
+  
+  // key: value
 
 
 
