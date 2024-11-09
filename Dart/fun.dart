@@ -5,20 +5,21 @@ void main(){
   // }
   
 
-  // String printFunc([String statement = 'Don joe']){
-  //   statement += " hello this is you statement";
-  //   return statement;
-  // }
+  String printFunc([String statement = 'Don joe']){
+    statement += " hello this is you statement";
+    return statement;
+  }
 
   // var str = printFunc("Lokanath");
   // print(str);
 
 
-  // int add(int a, int b, [int? c]){
+  // int? add(int a, int b, [int? c]){
   //   print(a);
   //   print(b);
   //   print(c);
-  //   return a+b;
+  //   // c ??= 7;
+  //   return c;
   // }
 
   // print(add(1, 5, 7));
@@ -32,12 +33,11 @@ void main(){
   // print(sum(b:5.6, a:5.6));
 
 
-  // void printInfo({required String name,required String gender}){
+  // void printInfo({required String name , String? gender }){
   //   print("My name is ${name} and my gender is ${gender}");
   // }
-  
-  // printInfo(name: "Lokanath", gender: "male");
-  
+
+  // printInfo(name: "test");
 
   // "asldfkja"
   // void printInfo({required String name,required String gender}){
@@ -57,10 +57,10 @@ void main(){
 
   // func();
 
-  var func2 = () => print("hello this is a arrow function");
-  var b;
-  var even = (a) => b =a+=2; 
-  func2();
-  even(5);
-  print(b);
+  // var func2 = () => print("hello this is a arrow function");
+  // var b;
+  // var even = (a) => b =a+=2; 
+  // func2();
+  // even(5);
+  // print(b);
 }
