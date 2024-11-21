@@ -1,6 +1,6 @@
 void main(){
   List a = [1,2,3,5];
-  int b = 6;
+  // int b = 6;
   double res;
   try {
     res = a[7];
