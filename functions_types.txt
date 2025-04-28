@@ -1,8 +1,0 @@
-functions;
-
-positional parameters
-named parameters {}
-default value for parameter [para = val] in positional parameter.
-default value for parameter {para = val, para1 = val1} in named parameter
-required parameter only in named parameter
-optional parameter ([type? para], )
